@@ -1,0 +1,27 @@
+/* CSS code */
+body {
+     background: #B5E2FA; 
+    padding: 20px;
+    background: 0E41B0;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.profile-img{
+    width: 35%;
+    border-radius: 50%;
+
+}
+.btn{
+    display: block;
+    color:  black;
+    padding: 20px;
+    background: white;
+    margin: 16px;
+    box-shadow: 10px 10px black;
+
+}
+a{
+    text-decoration: none;
+}
