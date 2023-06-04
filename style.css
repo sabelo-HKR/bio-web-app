@@ -3,7 +3,7 @@ body {
      background: #B5E2FA; 
     padding: 20px;
     background: 0E41B0;
-    color: white;
+    color: black;
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
@@ -15,12 +15,10 @@ body {
 }
 .btn{
     display: block;
-    color:  black;
-    padding: 20px;
-    background: rgb(10, 10, 10);
-    margin: 16px;
-    box-shadow: 10px 10px black;
-
+   color: white;
+   padding: 15px;
+   background:black;
+   margin: 16px;
 }
 a{
     text-decoration: none;
