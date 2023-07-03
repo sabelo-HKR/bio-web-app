@@ -1,6 +1,6 @@
 /* CSS code */
 body {
-  background-image: url('image/Screenshot_20230612_105314_OneDrive.jpg');
+  background-image: url('image/61a3d3f69c067a61a2693967923f02ca.jpg');
     padding: 15px;
     background: 0E41B0;
     color: black;
@@ -95,4 +95,20 @@ a{
   
 
 
+  #slideshow-container {
+    width: 100%; /* Adjust as per your requirement */
+    height: 500px; /* Adjust as per your requirement */
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
   
