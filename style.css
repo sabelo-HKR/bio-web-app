@@ -6,11 +6,12 @@ body {
     color: black;
     text-align: center;
     font-family: 'Poppins', sans-serif;
+
 }
 
 .profile-img{
-    width: 355px;;
-    border-radius: 55%;
+    width: 47%;
+    border-radius: 49.5%
 
 }
 .btn{
@@ -23,3 +24,71 @@ body {
 a{
     text-decoration: none;
 }
+
+.container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+  }
+  
+  .sun, .moon, .earth {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .sun {
+    background-color: orange;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: rotate-sun 10s linear infinite;
+  }
+  
+  .moon {
+    background-color: gray;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: rotate-moon 10s linear infinite;
+  }
+  
+  .earth {
+    background-color: blue;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: rotate-earth 10s linear infinite;
+  }
+  
+  @keyframes rotate-sun {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }
+  
+  @keyframes rotate-moon {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }
+  
+  @keyframes rotate-earth {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }
+  
+
+
+  
