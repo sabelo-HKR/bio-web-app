@@ -16,6 +16,11 @@ img{
 }
 
 .profile-img{
+  border-image: 50px;
+    height: 250px;
+    margin-left: 600px;
+    border-radius: 150px;
+    margin-top: 30px;
 
 }
 .btn{
