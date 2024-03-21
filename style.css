@@ -16,8 +16,8 @@ img{
 }
 
 .profile-img{
-  width: 47%;
-    border-radius: 49.5%;
+  width: 47px;
+    border-radius: 49.5px;
     border-image: 50px;
 
 }
