@@ -12,12 +12,12 @@ body {
 
 /* main content */
 img{
-  width: 50px;
+  width: 50%;
 }
 
 .profile-img{
     width: 40%;
-    border-radius: 67%;
+    border-radius: 100%;
   
 
 }
